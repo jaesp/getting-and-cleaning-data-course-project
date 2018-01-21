@@ -1,12 +1,12 @@
 # Code book for the Coursera Course Project Module 3: *Getting and Cleaning Data*
 
-### This code book decribes the data and variables used in the `tidydata.txt` file in this repository.
+#### This code book decribes the data and variables used in the `tidydata.txt` file in this repository.
 
 ## The Data
 
-### The `tidydata.txt` file contains space-separated values.
+#### The `tidydata.txt` file contains space-separated values.
 
-### The first row are the names of the variables, described in the Variables section below, and the following rows contain the values of the variables.
+#### The first row are the names of the variables, described in the Variables section below, and the following rows contain the values of the variables.
 
 ## Variables
 
@@ -26,11 +26,11 @@
 
 ## Transformations
 
-### The original data used for the Project can be found here:
+#### The original data used for the Project can be found here:
 
-[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-### The following transformations were applied to the source data:
+#### The following transformations were applied to the source data:
 
 1. The training and test sets were merged to create one data set.
 2. The measurements on the mean and standard deviation only for each measurement were extracted.
@@ -41,5 +41,5 @@
 	+ `Acc`, `Gyro`, `Mag`, `BodyBody`, `mean`, `std` were corrected and replaced with its corresponding full names `Accelerometer`, `Gyroscope`, `Magnitude`, `Body`, `Mean` and `StandardDeviation`.
 5. Using the data set produced in 4, a final data set was created with the average of each variable for each activity and each subject.
 
-### The transformations listed above were implemented by the `run_analysis.R` R script.
+#### The transformations listed above were implemented by the `run_analysis.R` R script.
 
